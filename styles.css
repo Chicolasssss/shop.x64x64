@@ -6,20 +6,29 @@ body {
     font-family: Arial, sans-serif; /* Mantiene tu estilo de fuente */
     margin: 0;
     padding: 20px;
+    display: flex; /* Utiliza flexbox para centrar */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Usa toda la altura de la ventana */
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white; /* Cambia el color del texto si el fondo es oscuro */
+    font-size: 2em; /* Aumenta el tamaño de la fuente del encabezado */
 }
 
-#kits {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 20px;
-    gap: 20px;
+section {
+    background: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para mejorar la legibilidad */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    max-width: 800px; /* Ancho máximo para mantener el contenido centrado */
+    width: 100%; /* Asegura que use el 100% del ancho disponible */
+}
+
+.pack h3, .pack p {
+    font-size: 1.5em; /* Aumenta el tamaño de la fuente de los títulos y párrafos de los packs */
 }
 
 .kit {
