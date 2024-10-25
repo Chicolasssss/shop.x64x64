@@ -1,34 +1,34 @@
 body {
     background-image: url('https://ejemplo.com/tu-imagen.jpg'); /* Cambia esto a la URL de tu imagen */
-    background-size: cover; /* Cubre todo el fondo */
-    background-repeat: no-repeat; /* No repite la imagen */
-    background-position: center; /* Centra la imagen */
-    font-family: Arial, sans-serif; /* Mantiene tu estilo de fuente */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    display: flex; /* Utiliza flexbox para centrar */
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    flex-direction: column; /* Apila los elementos en columna */
-    height: 100%; /* Usa toda la altura de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh; /* Usa toda la altura de la ventana */
 }
 
 header {
-    text-align: center;
-    margin-bottom: 20px;
+    text-align: center; /* Centra el texto del encabezado */
+    margin-bottom: 20px; /* Espacio debajo del encabezado */
     color: white; /* Cambia el color del texto si el fondo es oscuro */
     font-size: 2em; /* Aumenta el tamaño de la fuente del encabezado */
 }
 
 section {
-    background: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente para mejorar la legibilidad */
+    background: rgba(255, 255, 255, 0.8); /* Fondo semi-transparente */
     padding: 20px;
-    border-radius: 10px; /* Bordes redondeados */
-    max-width: 800px; /* Ancho máximo para mantener el contenido centrado */
-    width: 100%; /* Asegura que use el 100% del ancho disponible */
-    display: flex; /* Establece flex en la sección */
-    flex-direction: column; /* Apila los packs verticalmente */
-    align-items: center; /* Centra los packs horizontalmente */
+    border-radius: 10px;
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .pack {
@@ -37,8 +37,9 @@ section {
 }
 
 .pack h3, .pack p {
-    font-size: 1.5em; /* Aumenta el tamaño de la fuente de los títulos y párrafos de los packs */
+    font-size: 1.5em; /* Aumenta el tamaño de la fuente de los títulos y párrafos */
 }
+
 
 
 
