@@ -15,9 +15,9 @@ body {
 
 header {
     text-align: center; /* Centra el texto del encabezado */
-    margin-bottom: 20px; /* Espacio debajo del encabezado */
+    margin-bottom: 10px; /* Espacio debajo del encabezado */
     color: white; /* Cambia el color del texto si el fondo es oscuro */
-    font-size: 2em; /* Aumenta el tamaño de la fuente del encabezado */
+    font-size: 1,5em; /* Aumenta el tamaño de la fuente del encabezado */
 }
 
 section {
