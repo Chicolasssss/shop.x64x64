@@ -9,12 +9,13 @@ body {
     display: flex; /* Utiliza flexbox para centrar */
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
+    flex-direction: column; /* Apila los elementos en columna */
     height: 100vh; /* Usa toda la altura de la ventana */
 }
 
 header {
-    text-align: center;
-    margin-bottom: 20px;
+    text-align: center; /* Centra el texto del encabezado */
+    margin-bottom: 20px; /* Espacio debajo del encabezado */
     color: white; /* Cambia el color del texto si el fondo es oscuro */
     font-size: 2em; /* Aumenta el tamaño de la fuente del encabezado */
 }
@@ -38,6 +39,7 @@ section {
 .pack h3, .pack p {
     font-size: 1.5em; /* Aumenta el tamaño de la fuente de los títulos y párrafos de los packs */
 }
+
 
 .kit {
     background-color: #fff;
