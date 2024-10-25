@@ -1,5 +1,5 @@
 body {
-    background-image: url('https://i.ytimg.com/vi/eNGeU25_P60/maxresdefault.jpg'); /* Cambia esto a la URL de tu imagen */
+    background-image: url('https://ejemplo.com/tu-imagen.jpg'); /* Cambia esta URL por la de tu imagen */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -15,9 +15,9 @@ body {
 
 header {
     text-align: center; /* Centra el texto del encabezado */
-    margin-bottom: 10px; /* Espacio debajo del encabezado */
-    color: white; /* Cambia el color del texto si el fondo es oscuro */
-    font-size: 1,5em; /* Aumenta el tamaño de la fuente del encabezado */
+    margin: 40px 0; /* Añade margen superior e inferior para separar del borde */
+    color: white; /* Asegúrate de que este color contraste con el fondo */
+    font-size: 3em; /* Tamaño de fuente grande para el encabezado */
 }
 
 section {
@@ -37,8 +37,9 @@ section {
 }
 
 .pack h3, .pack p {
-    font-size: 1.5em; /* Aumenta el tamaño de la fuente de los títulos y párrafos */
+    font-size: 1.5em; /* Tamaño de la fuente para los títulos y párrafos de los packs */
 }
+
 
 
 
