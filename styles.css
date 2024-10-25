@@ -1,5 +1,5 @@
 body {
-    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6e6035a8-abb9-4c00-ba79-d942b66bfe7f/d99af8z-b0f72fd4-e9b9-4f66-844f-c9b62a6b7ff8.png/v1/fill/w_1600,h_900,strp/the_spawn_of_2b2t_by_morganicism_d99af8z-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6IlwvZlwvNmU2MDM1YTgtYWJiOS00YzAwLWJhNzktZDk0MmI2NmJmZTdmXC9kOTlhZjh6LWIwZjcyZmQ0LWU5YjktNGY2Ni04NDRmLWM5YjYyYTZiN2ZmOC5wbmciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.3qfMuCzuVoFb82cGnqqvlNRxIjuC4LLFfzR7juCsxw0'); /* Cambia esto a la URL de tu imagen */
+    background-image: url('https://ejemplo.com/tu-imagen.jpg'); /* Cambia esto a la URL de tu imagen */
     background-size: cover; /* Cubre todo el fondo */
     background-repeat: no-repeat; /* No repite la imagen */
     background-position: center; /* Centra la imagen */
@@ -10,12 +10,12 @@ body {
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
     flex-direction: column; /* Apila los elementos en columna */
-    height: 100vh; /* Usa toda la altura de la ventana */
+    height: 100%; /* Usa toda la altura de la ventana */
 }
 
 header {
-    text-align: center; /* Centra el texto del encabezado */
-    margin-bottom: 20px; /* Espacio debajo del encabezado */
+    text-align: center;
+    margin-bottom: 20px;
     color: white; /* Cambia el color del texto si el fondo es oscuro */
     font-size: 2em; /* Aumenta el tamaño de la fuente del encabezado */
 }
@@ -39,6 +39,7 @@ section {
 .pack h3, .pack p {
     font-size: 1.5em; /* Aumenta el tamaño de la fuente de los títulos y párrafos de los packs */
 }
+
 
 
 .kit {
