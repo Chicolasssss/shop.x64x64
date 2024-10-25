@@ -1,45 +1,67 @@
-<section id="packs">
-    <!-- Pack PvPv1 -->
-    <div class="pack">
-        <img src="https://via.placeholder.com/150" alt="Pack Name">
-        <h3>Pack PvP v1</h3>
-        <p>Price: 3€</p>
-        <p>Includes: 10 shulkers kits.</p>
-        <button onclick="window.location.href='https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=TU_CORREO@EJEMPLO.COM&currency_code=EUR&amount=3'">
-            Donate 3€
-        </button>
-    </div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kit Packs - Anarchy Server</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Support Our Server and Get Exclusive Kit Packs</h1>
+        <p>Choose from these powerful packs to enhance your experience on the server.</p>
+    </header>
 
-    <!-- Pack PvP v2 and Builder -->
-    <div class="pack">
-        <img src="https://via.placeholder.com/150" alt="Pack Name">
-        <h3>Pack PvP v2 and Builder</h3>
-        <p>Price: 5€</p>
-        <p>Includes: 20 shulkers kits.</p>
-        <button onclick="window.location.href='https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=TU_CORREO@EJEMPLO.COM&currency_code=EUR&amount=5'">
-            Donate 5€
-        </button>
-    </div>
+    <section id="packs">
+        <!-- Pack PvPv1 -->
+        <div class="pack" onclick="toggleDetails('details1')">
+            <img src="https://via.placeholder.com/150" alt="Pack PvP v1">
+            <h3>Pack PvP v1</h3>
+            <p>Price: 3€</p>
+        </div>
+        <div id="details1" class="pack-details">
+            <p>Includes: 10 shulkers kits.</p>
+            <button onclick="window.location.href='https://paypal.me/x64x64'">Donate 3€</button>
+        </div>
 
-    <!-- Pack Warrior -->
-    <div class="pack">
-        <img src="https://via.placeholder.com/150" alt="PvPv3">
-        <h3>PvPv3</h3>
-        <p>Price: 7€</p>
-        <p>Includes: 30 shulker kits.</p>
-        <button onclick="window.location.href='https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=TU_CORREO@EJEMPLO.COM&currency_code=EUR&amount=7'">
-            Donate 7€
-        </button>
-    </div>
+        <!-- Pack PvPv2 and Builder -->
+        <div class="pack" onclick="toggleDetails('details2')">
+            <img src="https://via.placeholder.com/150" alt="Pack PvP v2 and Builder">
+            <h3>Pack PvP v2 and Builder</h3>
+            <p>Price: 5€</p>
+        </div>
+        <div id="details2" class="pack-details">
+            <p>Includes: 20 shulkers kits.</p>
+            <button onclick="window.location.href='https://paypal.me/x64x64'">Donate 5€</button>
+        </div>
 
-    <!-- Pack GOD -->
-    <div class="pack">
-        <img src="https://via.placeholder.com/150" alt="Pack Name">
-        <h3>GOD Pack</h3>
-        <p>Price: 10€</p>
-        <p>Includes: 50 shulker kits.</p>
-        <button onclick="window.location.href='https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=TU_CORREO@EJEMPLO.COM&currency_code=EUR&amount=10'">
-            Donate 10€
-        </button>
-    </div>
-</section>
+        <!-- Pack Warrior -->
+        <div class="pack" onclick="toggleDetails('details3')">
+            <img src="https://via.placeholder.com/150" alt="Pack Warrior">
+            <h3>PvPv3</h3>
+            <p>Price: 7€</p>
+        </div>
+        <div id="details3" class="pack-details">
+            <p>Includes: 30 shulker kits.</p>
+            <button onclick="window.location.href='https://paypal.me/x64x64'">Donate 7€</button>
+        </div>
+
+        <!-- Pack Overlord -->
+        <div class="pack" onclick="toggleDetails('details4')">
+            <img src="https://via.placeholder.com/150" alt="GOD Pack">
+            <h3>GOD Pack</h3>
+            <p>Price: 10€</p>
+        </div>
+        <div id="details4" class="pack-details">
+            <p>Includes: 50 shulker kits.</p>
+            <button onclick="window.location.href='https://paypal.me/x64x64'">Donate 10€</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>Thank you for supporting our server! Your contributions help our community grow.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
