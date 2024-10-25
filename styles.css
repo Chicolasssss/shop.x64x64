@@ -57,7 +57,10 @@ section {
 }
 
 /* Detalles del pack */
-.pack-details {
+/* Color naranja para las descripciones de cada donación */
+.pack p {
+    color: #FFA500; /* Color naranja */
+    font-size: 1em; /* Ajuste del tamaño de fuente */
     display: none;
     background: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
