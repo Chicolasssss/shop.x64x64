@@ -91,7 +91,12 @@ footer {
     text-align: center;
     color: #ffffff;
     font-size: 1.1em;
+    /* Al final del archivo styles.css */
+.pack p {
+    color: #000000; /* Color gris medio para la descripción */
+    font-size: 0.95em; /* Tamaño de fuente ajustado */
 }
+
 
 
 
