@@ -1,1 +1,192 @@
+body {
+    background-image: url('https://ejemplo.com/tu-imagen.jpg'); /* Cambia esta URL por la de tu imagen */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: #f2f2f2; /* Color de texto claro */
+}
 
+header {
+    text-align: center;
+    margin: 20px 0;
+    color: #ffffff; /* Color blanco para el título */
+}
+
+header h1 {
+    font-size: 3em; /* Tamaño de fuente grande */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para el título */
+}
+
+header p {
+    font-size: 1.2em; /* Tamaño de fuente más pequeño para el subtítulo */
+    margin: 10px 0;
+}
+
+section {
+    background: rgba(255, 255, 255, 0.9); /* Fondo blanco con opacidad */
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra de caja */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pack {
+    background: linear-gradient(135deg, #ff8c00, #ff4500); /* Fondo degradado */
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 300px; /* Ancho máximo para cada pack */
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Sombra para cada pack */
+    transition: transform 0.3s; /* Efecto de transformación */
+}
+
+.pack:hover {
+    transform: scale(1.05); /* Aumenta el tamaño al pasar el mouse */
+}
+
+.pack img {
+    border-radius: 5px; /* Bordes redondeados para las imágenes */
+    width: 100%; /* Las imágenes ocuparán el ancho completo del contenedor */
+}
+
+.pack h3 {
+    font-size: 1.5em; /* Tamaño de fuente para el título del pack */
+    color: #ffffff; /* Color blanco para los títulos de los packs */
+}
+
+.pack p {
+    font-size: 1.2em; /* Tamaño de fuente para los detalles del pack */
+    color: #f2f2f2; /* Color claro para el texto */
+}
+
+button {
+    background-color: #28a745; /* Color verde para el botón */
+    color: white; /* Color blanco para el texto del botón */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2em; /* Tamaño de fuente para el botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Efecto de transición para el botón */
+}
+
+button:hover {
+    background-color: #218838; /* Color más oscuro al pasar el mouse sobre el botón */
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #ffffff; /* Color blanco para el pie de página */
+    font-size: 1.1em; /* Tamaño de fuente más pequeño para el pie de página */
+}
+body {
+    background-image: url('https://ejemplo.com/tu-imagen.jpg'); /* Cambia esta URL por la de tu imagen */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    color: #f2f2f2; /* Color de texto claro */
+}
+
+header {
+    text-align: center;
+    margin: 20px 0;
+    color: #ffffff; /* Color blanco para el título */
+}
+
+header h1 {
+    font-size: 3em; /* Tamaño de fuente grande */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Sombra para el título */
+}
+
+header p {
+    font-size: 1.2em; /* Tamaño de fuente más pequeño para el subtítulo */
+    margin: 10px 0;
+}
+
+section {
+    background: rgba(255, 255, 255, 0.9); /* Fondo blanco con opacidad */
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra de caja */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pack {
+    background: linear-gradient(135deg, #ff8c00, #ff4500); /* Fondo degradado */
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 300px; /* Ancho máximo para cada pack */
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Sombra para cada pack */
+    transition: transform 0.3s; /* Efecto de transformación */
+}
+
+.pack:hover {
+    transform: scale(1.05); /* Aumenta el tamaño al pasar el mouse */
+}
+
+.pack img {
+    border-radius: 5px; /* Bordes redondeados para las imágenes */
+    width: 100%; /* Las imágenes ocuparán el ancho completo del contenedor */
+}
+
+.pack h3 {
+    font-size: 1.5em; /* Tamaño de fuente para el título del pack */
+    color: #ffffff; /* Color blanco para los títulos de los packs */
+}
+
+.pack p {
+    font-size: 1.2em; /* Tamaño de fuente para los detalles del pack */
+    color: #f2f2f2; /* Color claro para el texto */
+}
+
+button {
+    background-color: #28a745; /* Color verde para el botón */
+    color: white; /* Color blanco para el texto del botón */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2em; /* Tamaño de fuente para el botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Efecto de transición para el botón */
+}
+
+button:hover {
+    background-color: #218838; /* Color más oscuro al pasar el mouse sobre el botón */
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #ffffff; /* Color blanco para el pie de página */
+    font-size: 1.1em; /* Tamaño de fuente más pequeño para el pie de página */
+}
