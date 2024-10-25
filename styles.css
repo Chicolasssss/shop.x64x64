@@ -58,8 +58,6 @@ section {
 
 /* Detalles del pack */
 .pack-details {
-    color: #FFA500; /* Color naranja */
-    font-size: 1em; /* Ajuste del tamaño de fuente */
     display: none;
     background: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
