@@ -67,6 +67,8 @@ section {
     max-width: 300px;
     text-align: center;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    color: #333333; /* Color más visible para el texto de la descripción */
+    font-weight: bold;
 }
 
 /* Estilos del botón */
@@ -98,7 +100,3 @@ footer {
     color: #000000; /* Color negro para la descripción */
     font-size: 0.95em; /* Tamaño de fuente ajustado */
 }
-
-
-
-
